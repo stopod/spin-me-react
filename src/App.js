@@ -108,7 +108,7 @@ function App() {
           top: -50,
         }}
       >
-        画像の選択
+        掌の上で転がす
         <input type="file" style={{ display: "none" }} onChange={changePic} />
       </Button>
     </div>
