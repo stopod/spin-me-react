@@ -76,13 +76,7 @@ function App() {
   };
 
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
+    <div>
       <div
         ref={mountRef}
         style={{
@@ -94,9 +88,9 @@ function App() {
         src={otete}
         style={{
           position: "relative",
-          right: 180,
-          top: 210,
           zIndex: 999,
+          bottom: 240,
+          left: 300,
         }}
       />
       <Button
@@ -104,8 +98,9 @@ function App() {
         component="label"
         style={{
           position: "relative",
-          right: 300,
-          top: -50,
+          zIndex: 1000,
+          bottom: 750,
+          left: 200,
         }}
       >
         手のひらの上で転がす
